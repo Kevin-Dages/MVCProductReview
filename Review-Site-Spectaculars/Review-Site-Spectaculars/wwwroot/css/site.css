@@ -1,0 +1,88 @@
+html {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 20px;
+        
+    }
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  
+}
+
+body {
+    margin-bottom: 60px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper-with-pizza_23-2148683829.jpg?w=2000");
+}
+.accordion-button {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    margin: 100px;
+    padding:5%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 165, 182);
+}
+#one {
+    display: flex;
+    justify-content: center;
+}
+.display-4 {
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 165, 182);
+}
+.accordion-button-link {
+    text-align: center;
+    width: 100%;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.table {
+    background-color: rgb(0, 165, 182);
+    color:black;
+}
+.col-md-4 {
+    background-color: rgb(0, 165, 182);
+    color: black;
+}
+h1 {
+    color:rgb(0, 165, 182);
+}
+h4 {
+    color: rgb(0, 165, 182);
+}
+header{
+    background-color: rgb(0, 165, 182);
+    display:flex;
+    justify-content:center;
+    border-radius:35px;
+}
+.nav-link {
+    border: solid;
+    border-block-color: white;
+    color: darkgoldenrod;
+    margin-right: 10px;
+    border-radius: 35px
+}
+.row {
+    background-color: rgb(0, 165, 182);
+    color: black;
+}
+
+.display-4{
+    display:flex;
+    justify-content:center;
+}
